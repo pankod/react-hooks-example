@@ -12,9 +12,9 @@ class App extends Component {
 		return (
 			<div className="App">
 				<header className="App-header">
-					<Countdown countDown={50} />
-					<CountdownClass countDown={50} />
-					<CountdownWithUseInterval countDown={50} />
+					<Countdown countDown={300} />
+					<CountdownClass countDown={300} />
+					<CountdownWithUseInterval countDown={300} />
 				</header>
 			</div>
 		);

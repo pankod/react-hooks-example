@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 
 import useInterval from './useInterval';
 
-export function CountdownWithUseInterval() {
-	const [countDown, setCountdown] = useState(50);
+export function CountdownWithUseInterval(props) {
+	const [countDown, setCountdown] = useState(props.countDown);
 
 	useInterval(function () {
-		setCountdown(countDown - 1);
+		setCountdown(countDown => countDown - 1);
 	}, 1000);
 
 	return (
