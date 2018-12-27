@@ -7,7 +7,6 @@ export function Countdown(props) {
   const intervalRef = useRef();
   const [countDown, setCountdown] = useState(50);
 
-  console.log("asda", countDown)
   useEffect(() => {
     console.log("useEffect", countDown)
     const id = setInterval(function () {
@@ -28,7 +27,7 @@ export function Countdown(props) {
       <p>{countDown} seconds</p>
       <button onClick={() => setCountdown(countDown + 10)}>
         Add to 10 seconds
-      		</button>
+      </button>
     </div>
   );
 }
@@ -43,6 +42,7 @@ export class CountdownClass extends React.Component {
   interval = 0;
   constructor(props) {
     super(props);
+
     this.state = {
       countDown: props.countDown
     };
@@ -62,7 +62,7 @@ export class CountdownClass extends React.Component {
         <p>{this.state.countDown} seconds</p>
         <button onClick={() => this.setState({ countDown: this.state.countDown + 10 })}>
           Add to 10 seconds
-      			</button>
+      	</button>
       </div>
     );
   }
