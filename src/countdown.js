@@ -13,7 +13,6 @@ export function Countdown(props) {
 		intervalRef.current = id;
 
 		return () => {
-			console.log("clear")
 			clearInterval(intervalRef.current);
 		}
 	}, []);

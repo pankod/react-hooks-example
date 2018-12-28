@@ -5,8 +5,6 @@ import { Countdown } from './countdown'
 import { CountdownClass } from './countdownClass'
 import { CountdownWithUseInterval } from './countdownWithUseInterval'
 
-
-
 class App extends Component {
 	render() {
 		return (
