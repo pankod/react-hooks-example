@@ -1,4 +1,6 @@
+<div align="center" >
 <img src="https://github.com/pankod/react-hooks-example/blob/master/example.png" alt="React Hooks Example" align="center" />
+</div>
 
 ### `Hooks`
 
