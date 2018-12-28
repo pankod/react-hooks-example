@@ -22,7 +22,7 @@ export class CountdownClass extends React.Component {
 			<div>
 				<p>{this.state.countDown} seconds</p>
 				<button onClick={() => this.setState({ countDown: this.state.countDown + 10 })}>
-					Add to 10 seconds
+					Add 10 seconds
       			</button>
 			</div>
 		);

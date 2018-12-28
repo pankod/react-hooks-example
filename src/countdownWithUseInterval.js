@@ -13,7 +13,7 @@ export function CountdownWithUseInterval(props) {
 		<div>
 			<p>{countDown} seconds</p>
 			<button onClick={() => setCountdown(countDown + 10)}>
-				Add to 10 seconds
+				Add 10 seconds
       		</button>
 		</div>
 	);

@@ -1,3 +1,5 @@
+<img src="https://github.com/pankod/react-hooks-example/blob/master/example.png" alt="React Hooks Example" align="center" />
+
 ### `Hooks`
 
 ```
@@ -23,7 +25,7 @@ export function Countdown(props) {
 		<div>
 			<p>{countDown} seconds</p>
 			<button onClick={() => setCountdown(countDown + 10)}>
-				Add to 10 seconds
+				Add 10 seconds
       		</button>
 		</div>
 	);
@@ -58,7 +60,7 @@ export class CountdownClass extends React.Component {
 			<div>
 				<p>{this.state.countDown} seconds</p>
 				<button onClick={() => this.setState({ countDown: this.state.countDown + 10 })}>
-					Add to 10 seconds
+					Add 10 seconds
       			</button>
 			</div>
 		);
@@ -95,7 +97,7 @@ export function CountdownWithUseInterval(props) {
 		<div>
 			<p>{countDown} seconds</p>
 			<button onClick={() => setCountdown(countDown + 10)}>
-				Add to 10 seconds
+				Add 10 seconds
       		</button>
 		</div>
 	);
